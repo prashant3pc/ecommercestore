@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
@@ -18,7 +17,7 @@ module.exports = {
   },
   plugins: [],
 };
-=======
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
@@ -38,4 +37,3 @@ module.exports = {
   },
   plugins: [],
 };
->>>>>>> 18ebeafe8c7bb9fd1ff229e74642c7e9305d3aec
