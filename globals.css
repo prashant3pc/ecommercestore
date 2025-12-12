@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFACD;       /* Lemon Chiffon background */
+  --foreground: #3b0d6e;       /* Deep purple text */
+  --accent: #d9b3ff;           /* Pastel purple accents */
+  --highlight: #ffb3d9;        /* Soft pink highlights */
+  --font-sans: 'Geist Sans', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-highlight: var(--highlight);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1e0f2f;
+    --foreground: #e0d7ff;
+    --accent: #a366ff;
+    --highlight: #ff99c8;
+  }
+}
+
+/* Apply globally */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
